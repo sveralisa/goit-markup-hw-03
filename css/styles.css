@@ -146,7 +146,6 @@ ul {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  margin-right: 93px;
 }
 .logo span {
   color: var(--primary-text-color);
@@ -158,7 +157,6 @@ ul {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #212121;
 }
 .header-link:hover,
 .header-link:focus {
@@ -177,6 +175,7 @@ ul {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
+  margin-left: 93px;
 }
 .header-item {
   display: flex;
@@ -347,7 +346,8 @@ ul {
   letter-spacing: 0.03em;
   margin: 0 0 10px 0;
 }
-.cards-text {
+
+.team-item-text {
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
@@ -400,6 +400,7 @@ ul {
 .menu-list {
   display: flex;
   justify-content: center;
+  margin-bottom: 50px;
 }
 .menu-button {
   font-weight: 500;
@@ -414,7 +415,6 @@ ul {
   background: #f5f4fa;
   border-radius: 4px;
   padding: 6px 22px;
-  margin-bottom: 50px;
 }
 
 .menu-item {
@@ -430,12 +430,14 @@ ul {
 .portfolio {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
   text-align: left;
+  margin-right: -30px;
+  margin-bottom: -30px;
 }
 .portfolio-item {
   display: flex;
   flex-direction: column;
+  margin-right: 30px;
   margin-bottom: 30px;
 }
 
